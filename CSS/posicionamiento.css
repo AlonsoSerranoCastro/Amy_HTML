@@ -1,0 +1,32 @@
+.box{
+    display: inline-block; /*Controlar estructuras*/
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: burlywood; /*Fondo*/
+    color: white;/*Color texto*/
+}
+
+#two{
+    position: absolute; /*Absolut, fixed, Static, relative y sticky*/
+    top: 20px;
+    left: 20px;
+    background-color: cadetblue;
+}
+
+#three{
+
+    display: inline;
+    position: absolute;
+    width: 100px;
+    height: 400px;
+    background-color: darkgray;
+    color: black;
+    margin: 100px;
+}
+
+.texto{
+    width: 600px;
+    height: 400px;
+    overflow: scroll;/*visible, hidde, scroll y auto*/
+    padding-left: 150px; /*Espacio entre el contenido y el borde*/
+}
