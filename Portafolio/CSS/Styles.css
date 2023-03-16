@@ -1,0 +1,56 @@
+nav{
+    width: min-content;
+    color: aliceblue;
+}
+
+.SoftSkills{
+    font-family: fantasy; font-size: 50px; color: lemonchiffon; background-color: blueviolet;
+    display: flex;
+    flex-direction:column;
+}
+
+.TecSkills{
+    font-family: fantasy; font-size: 50px; color: lemonchiffon; background-color: green;
+    display: flex;
+    justify-content: right;
+    flex-direction:column
+}
+
+header{
+    padding: 10px;
+    color: aliceblue;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2438013375536940927/D370DBF7BFC83ED36F783F08A598FFF3E71A1D61/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(90, 75, 97);
+}
+
+.card{
+    color: aliceblue;
+    background-color: rgb(90, 75, 97);
+    padding: 20px;
+    margin-inline: 50px;
+}
+
+.x{
+    background-color: rgb(156, 156, 156);
+}
+
+.Yo1{
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    padding-inline: 400px;
+}
+
+.Yo2{ 
+    color: white;
+    position: relative;
+    text-align: left;
+    padding: 30px;
+    padding-inline: 400px;
+    padding-bottom: ;
+}
