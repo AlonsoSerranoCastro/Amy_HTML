@@ -1,25 +1,190 @@
-nav{
-    width: min-content;
-    color: aliceblue;
-}
+/*---------------NAVBAR---------------*/
+.navBar{
+    background-color: #000000;
+    
+    width: 100%;
+    height: auto;
 
-.SoftSkills{
-    font-family: fantasy; font-size: 50px; color: lemonchiffon; background-color: blueviolet;
     display: flex;
-    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
 
-.TecSkills{
-    font-family: fantasy; font-size: 50px; color: lemonchiffon; background-color: green;
+.iconoNavBar{
+    background-color: #3C3C3C;
+    
+    width: 20%;
+    height: auto;
+    padding: 3px;
+    border-radius: 15%;
+}
+.linkNavBar{
+    color: #ffffff;
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: none;
+
+    margin-left: 10rem;
+}
+
+.linkNavBar:hover{
+    color: #3C3C3C;
+}
+  
+.linksNavBar {
     display: flex;
-    justify-content: right;
-    flex-direction:column
+    justify-content: center;
+    align-items: center;
+
+    padding-right: 25%;
 }
 
-header{
-    padding: 10px;
-    color: aliceblue;
-    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2438013375536940927/D370DBF7BFC83ED36F783F08A598FFF3E71A1D61/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+/*---------------ABAOUT ME---------------*/
+.aboutMe{
+position: relative;
+width: 100%;
+height: 30rem;
+
+background: linear-gradient(90deg, #3C3C3C -0.52%, #F2EEEE 99.48%);
+}
+
+h1{
+position: absolute;
+width: 634px;
+height: 95px;
+left: 79px;
+top: 120px;
+
+font-family: 'Fredoka';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+
+p{
+position: absolute;
+width: 509px;
+height: 110px;
+left: 253px;
+top: 286px;
+
+font-family: 'Fredoka';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 36px;
+
+color: #FFFFFF;
+}
+
+.aboutMeImg{
+position: absolute;
+left: 70%;
+width: 282px;
+height: 384px;
+bottom: 60px;
+
+border-radius: 10px;
+}
+/*---------------ABAOUUT ME 2---------------*/
+.aboutMe2{
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    
+    color: #FFFFFF;    
+}
+
+#titulo2{
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    left: 128px;
+    top: 100px;
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+#texto2{
+    position: absolute;
+    width: 529px;
+    height: 186px;
+    left: 184px;
+    top: 190px;
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+#titulo3{
+    position: absolute;
+    width: 350px;
+    height: 55px;
+    left: 80rem;
+    top: 20rem;
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+#texto3{
+    position: absolute;
+    width: 529px;
+    height: 186px;
+    left: 83rem;
+    top: 25rem;
+
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+/*---------------FOOTER---------------*/
+.footer{
+    background-color: #3C3C3C;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.abcd{
+    background-color: aqua;
+    height: 100px;
 }
 
 .card1{
@@ -35,22 +200,3 @@ header{
     margin-inline: 50px;
 }
 
-.x{
-    background-color: rgb(156, 156, 156);
-}
-
-.Yo1{
-    display: flex;
-    justify-content: right;
-    padding: 30px;
-    padding-inline: 400px;
-}
-
-.Yo2{ 
-    color: white;
-    position: relative;
-    text-align: left;
-    padding: 30px;
-    padding-inline: 400px;
-    padding-bottom: ;
-}
